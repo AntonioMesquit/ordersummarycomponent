@@ -216,7 +216,7 @@ form{
     .image-container {
         display: flex;
         flex-direction: column; 
-        height: 200px;
+        height: 190px;
         width: 400px;
     }
     
@@ -227,6 +227,7 @@ form{
     }
     .card{
         margin-top: 0px;
+        max-height: 713px;
     }
     .text-container {
         width: 100%;
