@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/*
+font-family: 'Red Hat Display', sans-serif;
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: top left;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    font-family: 'Red Hat Display' ;
+    
+    
+}
+.card{
+    
+
+    width: 450px;
+    height: 164px;
+   
+    
+}
+.image-container{
+    height: 200px;
+}
+.text-container{
+    background-color: white;
+    height: 420px;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/*
+font-family: 'Red Hat Display', sans-serif;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: left center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    font-family: 'Red Hat Display' ;
+    margin: auto;
+    
+    
+}
+.card{
+    
+    margin-top: 9rem;
+    width: 450px;
+    height: 164px;
+   
+    
+}
+.text-container{
+    background-color: white;
+    height: 450px;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.little-box{
+    background-color: hsla(224, 100%, 92%, 0.146);
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    margin-bottom: 15px;
+
+    
+}
+
+.icon{
+    margin-right: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    padding-top: 45px;
+    padding-bottom: 20px;
+    color: hsl(225.88,41.46%,24.12%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 700;
+    
+}
+.text-little{
+    color: hsl(232.26,17.51%,65.29%);
+    padding-bottom: 20px;    
+    
+}
+
+
+.title-desc{
+    color: #273258;
+    font-size: 1.1rem;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    color: hsl(225.88,41.46%,24.12%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.9em;
+}
+
+.text-desc{
+    color: hsl(234,12.05%,67.45%);
+    font-family: 'Red Hat Display';
+    font-size: 1.1em;
+    font-weight: 500;
+    
+
+  
+}
+.desc{
+    margin-right: 100px;
+
+}
+
+#but-0{
+    border: none;
+    font-family: 'Red Hat Display';
+    text-decoration: underline;
+    cursor: pointer;
+    color: #382AE1;
+    font-weight: 700;
+    background-color: hsla(224, 100%, 92%, 0.146);
+}
+
+#but-1{
+   border: 1px solid #382AE1;
+   margin: auto;
+   
+   color: white;
+   font-family: 'Red Hat Display';
+   background-color: #382AE1;
+   padding-right: 112px;
+   padding-left: 112px;
+   border-radius: 10px;
+   padding-bottom: 15px;
+   padding-top: 15px;
+   font-weight: 700;
+   margin-bottom: 25px;
+   
+}
+#but-2{
+    border: none;
+    background-color: white;
+    color: hsl(234,12.05%,67.45%);
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#but-0:hover{
+    text-decoration: none;
+    color: #392ae1b0;
+    
+}
+
+#but-1:hover{
+    background-color: #392ae1ba;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+#but-2:hover{
+   color: black;
+   transition: 1s;
+}
+@media screen and (max-width: 400px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+    
+    .image-container {
+        display: flex;
+        flex-direction: column; 
+        height: 200px;
+        width: 400px;
+    }
+    
+    img {
+        max-width: 100%; 
+        border-top-left-radius: 0px;
+        
+    }
+    .card{
+        margin-top: 0px;
+    }
+    .text-container {
+        width: 100%;
+        width: 400px;
+    }
+    
+    
+    
+    .title {
+        font-size: 1.5em;
+    }
+    
+    .text-desc {
+        font-size: 1em;
+    }
+}
