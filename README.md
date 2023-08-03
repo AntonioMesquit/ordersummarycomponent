@@ -1,7 +1,7 @@
 # Frontend Mentor - Order summary card
 
 ##SITE
-<a href="https://antoniomesquit.github.io/ordersummarycomponent/">CLIQUE AQUI</a>
+<a style="color: white; text-decoration: none;" href="https://antoniomesquit.github.io/ordersummarycomponent/">CLIQUE AQUI</a>
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
